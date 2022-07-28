@@ -49,10 +49,6 @@ p {
   width: 500px;
 }
 
-.headline h1 {
-
-}
-
 .about-detail {
   flex-grow: 0;
   order: 1;

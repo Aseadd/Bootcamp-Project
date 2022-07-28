@@ -95,6 +95,16 @@ header {
   font-size: 16px;
 }
 
+.bar-item a {
+  float: right;
+  display: block;
+  color: #ffffff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 12px;
+}
+
 .menu-list.active a {
   font-family: 'COCOGOOSE', serif;
   text-decoration: none;
@@ -104,16 +114,6 @@ header {
 .main-container.active,
 .menu-nav.active  {
   display: none;
-}
-
-.bar-item a {
-  float: right;
-  display: block;
-  color: #ffffff;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 12px;
 }
 
 .menu-nav {
@@ -156,6 +156,16 @@ header {
   background-color: #101010;
 }
 
+.bar1 {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: #f7f1f1;
+}
+
 .hamburger.active .bar:nth-child(2) {
   opacity: 0;
   color: black;
@@ -186,16 +196,6 @@ header {
   display: block;
   cursor: pointer;
   float: left;
-}
-
-.bar1 {
-  display: block;
-  width: 25px;
-  height: 3px;
-  margin: 5px auto;
-  -webkit-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
-  background-color: #f7f1f1;
 }
 
 .hamburger1.active .ba1r:nth-child(2) {
