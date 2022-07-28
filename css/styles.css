@@ -858,11 +858,11 @@ header {
   .foot-note {
     display: flex;
     flex-direction: row;
-    width: 100%;
+    width: 80%;
     height: 70px;
-    background: #d2d2d2;
     gap: 40px;
-    justify-content: center;
+    margin-left: 200px;
+    margin-top: 30px;
   }
 
   .address {
