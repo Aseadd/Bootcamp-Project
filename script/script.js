@@ -49,35 +49,35 @@ const instructors = [
       'Benker studies commons-based peer production, and published his seminal book "the wealth of networks" in 2006',
   },
   {
-    instructorName: 'Yochai Benkler',
+    instructorName: 'SonYeong Noh',
     image: 'images/Chon_Kilnam.jpg',
     jobTitle: 'Berkman Professor of Entrepreneurial Legal Studies',
     profile:
       'Benker studies commons-based peer production, and published his seminal book "the wealth of networks" in 2006',
   },
   {
-    instructorName: 'Yochai Benkler',
+    instructorName: 'Lila Tretikovr',
     image: 'images/Chon_Kilnam.jpg',
     jobTitle: 'Berkman Professor of Entrepreneurial Legal Studies',
     profile:
       'Benker studies commons-based peer production, and published his seminal book "the wealth of networks" in 2006',
   },
   {
-    instructorName: 'Yochai Benkler',
+    instructorName: 'Kilnam Chon',
     image: 'images/Chon_Kilnam.jpg',
     jobTitle: 'Berkman Professor of Entrepreneurial Legal Studies',
     profile:
       'Benker studies commons-based peer production, and published his seminal book "the wealth of networks" in 2006',
   },
   {
-    instructorName: 'Yochai Benkler',
+    instructorName: 'Julia Leda',
     image: 'images/Chon_Kilnam.jpg',
     jobTitle: 'Berkman Professor of Entrepreneurial Legal Studies',
     profile:
       'Benker studies commons-based peer production, and published his seminal book "the wealth of networks" in 2006',
   },
   {
-    instructorName: 'Yochai Benkler',
+    instructorName: 'Riyan Merkely',
     image: 'images/Chon_Kilnam.jpg',
     jobTitle: 'Berkman Professor of Entrepreneurial Legal Studies',
     profile:

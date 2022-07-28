@@ -44,7 +44,7 @@ header {
 .header-links {
   overflow: hidden;
   width: 100%;
-  height: 37%;
+  height: 50%;
   background: #4b4a4a;
 }
 
@@ -65,7 +65,7 @@ header {
   height: 600px;
   background: #4b4a4a;
   z-index: 1;
-  width: 95%;
+  width: 100%;
 }
 
 .header.active {
@@ -75,26 +75,25 @@ header {
 .bar-menu.active {
   display: flex;
   flex-direction: row;
-  width: 95%;
+  width: 100%;
   left: 0;
   color: #fdf9f9;
   background: #4b4a4a;
   line-height: 32px;
-  min-height: 350px;
-  margin-top: -43px;
-  text-align: center;
+  min-height: 500px;
+  margin-top: 0;
   align-items: flex-end;
 }
 
 .menu-list.active {
   display: flex;
   flex-direction: column;
-  width: 98%;
+  width: 100%;
   justify-content: flex-start;
-  left: 10px;
+  left: 20px;
   line-height: 32px;
   min-height: 150px;
-  margin-top: -30px;
+  margin-top: 0;
   text-align: left;
   font-size: 16px;
 }
@@ -106,14 +105,14 @@ header {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 12px;
+  font-size: 16px;
 }
 
 .menu-list.active a {
   font-family: 'COCOGOOSE', serif;
   text-decoration: none;
   color: #fff;
-  font-size: 14px;
+  font-size: 20px;
 }
 
 .main-container.active,
@@ -201,6 +200,7 @@ header {
   display: block;
   cursor: pointer;
   float: left;
+  margin-top: 20px;
 }
 
 .main-container {
@@ -531,8 +531,11 @@ header {
   display: none;
 }
 
-.btn {
+.more-btn {
   display: block;
+}
+
+.btn {
   width: 80%;
   padding: 15px;
   cursor: pointer;
@@ -592,11 +595,11 @@ header {
   .menu-list {
     display: flex;
     flex-direction: row;
-    left: 0;
+    left: 20px;
     transition: none;
     border-radius: 0;
     padding: 1rem 5rem;
-    width: 100%;
+    width: 95%;
     top: 3rem;
     position: fixed;
     justify-content: right;
@@ -620,6 +623,7 @@ header {
 
   .logo-image {
     display: block;
+    margin-left: 40px;
   }
 
   .bar-item :hover {
@@ -673,6 +677,7 @@ header {
   .cc {
     border: 2px solid #ec5242;
     padding-left: 20px;
+    font-weight: bold;
   }
 
   .main-program {
@@ -718,7 +723,6 @@ header {
     flex-wrap: wrap;
     width: 78%;
     gap: 2px;
-    border: 1px solid black;
     justify-content: center;
     align-items: center;
     margin-left: 150px;
@@ -772,7 +776,7 @@ header {
     display: none;
   }
 
-  .btn {
+  .more-btn {
     display: none;
   }
 
@@ -782,7 +786,7 @@ header {
     width: 100%;
     height: 90px;
     background: #1c1c1c;
-    margin-top: 830px;
+    margin-top: 890px;
   }
 
   .footer-title {
