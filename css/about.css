@@ -14,6 +14,7 @@ h4,
 p {
   font-family: 'COCOGOOSE', sans-serif;
 }
+
 .about-container {
   display: flex;
   flex-direction: column;
@@ -209,17 +210,17 @@ p {
   height: 30px;
 }
 
-@media only screen and (min-width: 768px)  {
-  
+@media only screen and (min-width: 768px) {
   .about-headline {
     width: 60%;
     margin-left: 200px;
   }
+
   .events {
     display: flex;
     flex-direction: row;
   }
-  
+
   .partners-list {
     width: 1200px;
   }

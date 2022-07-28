@@ -1,11 +1,12 @@
 @import url('https://rsms.me/inter/inter.css');
 @import url('http://fonts.cdnfonts.com/css/cocogoose');
+
 :root {
   /* primary colors */
---black: #272831;
---white: #fff;
---orange: #ec5242;
---gray: #d3d3d3;
+  --black: #272831;
+  --white: #fff;
+  --orange: #ec5242;
+  --gray: #d3d3d3;
 }
 
 *,
@@ -29,6 +30,7 @@ ul {
 li {
   text-decoration: none;
 }
+
 li :hover {
   text-decoration: none;
 }
@@ -40,11 +42,12 @@ header {
 }
 
 .header-links {
-  overflow: hidden; 
+  overflow: hidden;
   width: 100%;
   height: 37%;
   background: #4b4a4a;
 }
+
 .bar-menu {
   display: block;
   position: absolute;
@@ -82,6 +85,7 @@ header {
   text-align: center;
   align-items: flex-end;
 }
+
 .menu-list.active {
   display: flex;
   flex-direction: column;
@@ -98,7 +102,7 @@ header {
 .bar-item a {
   float: right;
   display: block;
-  color: #ffffff;
+  color: #fff;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -108,11 +112,12 @@ header {
 .menu-list.active a {
   font-family: 'COCOGOOSE', serif;
   text-decoration: none;
-  color: #ffffff;
+  color: #fff;
   font-size: 14px;
 }
+
 .main-container.active,
-.menu-nav.active  {
+.menu-nav.active {
   display: none;
 }
 
@@ -198,18 +203,6 @@ header {
   float: left;
 }
 
-.hamburger1.active .ba1r:nth-child(2) {
-  opacity: 0;
-}
-
-.hamburger1.active .bar1:nth-child(1) {
-  transform: translateY(8px) rotate(45deg);
-}
-
-.hamburger1.active .bar1:nth-child(3) {
-  transform: translateY(-8px) rotate(-45deg);
-}
-
 .main-container {
   display: flex;
   flex-direction: column;
@@ -224,10 +217,6 @@ header {
   height: 30px;
 }
 
-.header-links.active .fa {
-  color: #ffffff;
-}
-
 .fa {
   border-radius: 50%;
   padding: 5px;
@@ -235,6 +224,10 @@ header {
   height: 10px;
   color: #d2d2d2;
   font-size: 16px;
+}
+
+.header-links.active .fa {
+  color: #fff;
 }
 
 .headline {
@@ -249,8 +242,8 @@ header {
 }
 
 .greeting {
-  font-size: 20px;
   font: bold;
+  font-size: 20px;
   color: #ec5242;
   text-align: center;
   margin-top: 48px;
@@ -280,6 +273,7 @@ header {
   text-align: left;
   margin-top: 15px;
 }
+
 .date-info {
   flex-grow: 0;
   order: 2;
@@ -303,7 +297,7 @@ header {
   align-items: center;
 }
 
-.main-program-title{
+.main-program-title {
   text-align: center;
   font-size: 24px;
   font-family: 'COCOGOOSE', sans-serif;
@@ -327,7 +321,6 @@ header {
   flex-direction: row;
   width: 95%;
   height: 120px;
-  margin: 5px 0 0 2px;
   background: #3c3a3aef;
   align-items: center;
   margin: 15px 5px;
@@ -357,6 +350,7 @@ header {
   align-items: center;
   color: #d2d2d2;
 }
+
 .degree-icon {
   width: 50px;
   height: 50px;
@@ -435,7 +429,6 @@ header {
   display: flex;
 }
 
-
 .instructor-card4 {
   display: none;
   flex-direction: row;
@@ -491,19 +484,20 @@ header {
   margin-top: 30px;
   height: fit-content;
 }
+
 .instructor-photo {
-   width: 100px;
-   height: 100px;
-   right: 0;
-   position: absolute;
-   bottom: 0;
-   background: #273a31;
+  width: 100px;
+  height: 100px;
+  right: 0;
+  position: absolute;
+  bottom: 0;
+  background: #273a31;
 }
 
 .instructor-name {
-   font-size: 24px;
-   font-weight: 400;
-   font-family: 'COCOGOOSE', serif;
+  font-size: 24px;
+  font-weight: 400;
+  font-family: 'COCOGOOSE', serif;
 }
 
 .job {
@@ -526,11 +520,6 @@ header {
   margin-top: 30px;
 }
 
-.more a {
-  text-decoration: none;
-  color: #273a31;
-}
-
 .fa-chevron-circle-down {
   color: #ec5242;
 }
@@ -551,7 +540,6 @@ header {
   border: 1px solid var(--gray);
   font-weight: bold;
 }
-
 
 .btn span i {
   font-size: 20px;
@@ -595,11 +583,13 @@ header {
     text-decoration: none;
     font-size: 12px;
   }
+
   .menu-nav {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
   }
+
   .menu-list {
     display: flex;
     flex-direction: row;
@@ -637,23 +627,25 @@ header {
     color: coral;
     text-decoration: none;
   }
+
   .menu-item :hover {
     color: crimson;
     text-decoration: none;
   }
 
-    .logo-text {
-      padding: 1rem 5rem;
-      height: 50px;
-      color: #171616;
-      text-align: center;
-      text-decoration: none;
-      font-size: 16px;
-    }
+  .logo-text {
+    padding: 1rem 5rem;
+    height: 50px;
+    color: #171616;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+  }
 
-    .a :hover {
-      text-decoration: none;
-    }
+  .a :hover {
+    text-decoration: none;
+  }
+
   .hamburger {
     display: none;
   }
@@ -757,6 +749,7 @@ header {
     flex-grow: 1;
     margin-left: 25px;
   }
+
   .instructor-card4 {
     display: flex;
     width: 40%;
@@ -857,7 +850,7 @@ header {
   .airbnb {
     width: 60px;
     height: 30px;
-  } 
+  }
 
   .foot-note {
     display: flex;
@@ -873,5 +866,4 @@ header {
     display: flex;
     flex-direction: column;
   }
-
 }
