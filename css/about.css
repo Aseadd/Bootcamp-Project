@@ -134,7 +134,7 @@ p {
 }
 
 .event img:hover {
-  filter: opacity(70%);
+  filter: opacity(90%);
 }
 
 .footer-section {
@@ -251,5 +251,12 @@ p {
 
   .indicator-footer {
     margin-left: 650px;
+  }
+
+  .logo-footer h5 {
+    margin-top: 20px;
+    font-size: 14px;
+    font-family: 'COCOGOOSE', serif;
+    color: #fff;
   }
 }
