@@ -1,0 +1,262 @@
+body {
+  width: 100%;
+  height: fit-content;
+  font-family: 'COCOGOOSE', sans-serif;
+}
+
+.logo-image {
+  width: 100px;
+  height: 40px;
+}
+
+h1,
+h4,
+p {
+  font-family: 'COCOGOOSE', sans-serif;
+}
+
+.about-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  gap: 10px;
+  height: fit-content;
+  background: url('../images/header1.png');
+  background-size: cover;
+}
+
+.about-headline {
+  width: 98%;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  text-align: center;
+  margin-top: 180px;
+}
+
+.about-title {
+  flex-grow: 0;
+  order: 0;
+  gap: 10px;
+  color: #ec5242;
+  font-size: 32px;
+  font-weight: 900;
+  margin-top: 10px;
+  font-family: 'COCOGOOSE', sans-serif;
+  text-align: center;
+  width: 500px;
+}
+
+.about-detail {
+  flex-grow: 0;
+  order: 1;
+  gap: 10px;
+  font-family: 'COCOGOOSE', sans-serif;
+  text-align: left;
+  margin-top: 15px;
+}
+
+.address-info {
+  flex-grow: 0;
+  order: 2;
+  gap: 10px;
+  font-family: 'COCOGOOSE', sans-serif;
+  text-align: center;
+  margin-top: 15px;
+}
+
+h4 {
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.email-address {
+  text-decoration: underline;
+  font-size: 12px;
+}
+
+p {
+  font-size: 12px;
+  font-weight: normal;
+}
+
+.logo-img {
+  flex-grow: 0;
+  order: 3;
+  gap: 10px;
+  width: 300px;
+  height: 100px;
+}
+
+.past-events {
+  padding: 30px 20px;
+  text-align: center;
+}
+
+.past-events p {
+  margin: 20px;
+}
+
+.events {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.event {
+  position: relative;
+}
+
+.event-description {
+  position: absolute;
+  top: 70px;
+  left: 70px;
+  background: none;
+  font-family: 'COCOGOOSE', sans-serif;
+  color: var(--white);
+  font-weight: bold;
+}
+
+.event img {
+  filter: opacity(0.7);
+  width: 375px;
+  height: 200px;
+}
+
+.foot-note img {
+  height: 60px;
+}
+
+.event img:hover {
+  filter: opacity(90%);
+}
+
+.footer-section {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: fit-content;
+  background: #1c1c1c;
+  margin-top: 10px;
+  justify-content: center;
+}
+
+.footer-title {
+  text-align: center;
+  font-family: 'COCOGOOSE', serif;
+  font-size: 16px;
+  padding-top: 10px;
+  color: #959292;
+}
+
+.partners-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 350px;
+  border-radius: 10px;
+  transition: 0.3s;
+  margin-left: 50px;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.partner a {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  padding: 5px 16px;
+  text-decoration: none;
+}
+
+.fa-airbnb {
+  color: hsl(0, 0%, 83%);
+}
+
+.fa-brands {
+  color: #959292;
+}
+
+.indicator-footer {
+  width: 48px;
+  height: 4px;
+  background: #ec5242;
+  border-radius: 24px;
+  margin-left: 215px;
+}
+
+.mozila {
+  font-size: 16px;
+  font-family: 'COCOGOOSE', serif;
+  font-weight: 300;
+  color: #727070;
+}
+
+.google {
+  color: #565353;
+}
+
+.naver {
+  color: #737171;
+  font-family: 'COCOGOOSE', serif;
+  font-weight: 300;
+}
+
+.daumk {
+  color: #868080;
+}
+
+.airbnb {
+  width: 60px;
+  height: 30px;
+}
+
+.foot-note {
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+  height: 90px;
+  gap: 80px;
+  justify-content: center;
+  margin: 30px 0 0 350px;
+}
+
+.address {
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+}
+
+@media only screen and (min-width: 768px) {
+  .about-headline {
+    width: 60%;
+    margin-left: 200px;
+  }
+
+  .events {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .partners-list {
+    width: 1200px;
+  }
+
+  .indicator-footer {
+    margin-left: 650px;
+  }
+
+  .logo-footer h5 {
+    margin-top: 20px;
+    font-size: 14px;
+    font-family: 'COCOGOOSE', serif;
+    color: #fff;
+  }
+}
