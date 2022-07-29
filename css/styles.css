@@ -479,9 +479,6 @@ header {
   align-items: center;
   flex-direction: column;
   gap: 10px;
-}
-
-.instructors-title {
   margin-bottom: 80px;
 }
 
@@ -492,10 +489,6 @@ header {
   height: 2px;
   width: 50px;
   background-color: #ec5242;
-}
-
-.instructor {
-  margin: 20px;
 }
 
 .instructor h2 {
@@ -517,6 +510,7 @@ header {
   justify-content: flex-start;
   gap: 20px;
   position: relative;
+  margin: 20px;
 }
 
 .instructor-bg {
@@ -549,24 +543,6 @@ header {
 .hide-show-speaker {
   display: none;
 }
-
-.btn {
-  width: 100%;
-  padding: 15px;
-  cursor: pointer;
-  background: none;
-  border: 1px solid var(--gray);
-  font-weight: bold;
-}
-
-.btn span i {
-  font-size: 20px;
-  position: relative;
-  top: 2px;
-  padding: 5px;
-  color: var(--orange);
-}
-
 
 @media only screen and (min-width: 768px) {
   body {
@@ -819,7 +795,7 @@ header {
     padding: 5px 16px;
     text-decoration: none;
   }
-  
+
   .indicator-footer {
     width: 48px;
     height: 4px;
@@ -874,29 +850,29 @@ header {
     flex-direction: column;
   }
 
-    .keynote-instructors {
-      grid-template-columns: 1fr 1fr;
-      width: 80%;
-      margin: auto;
-    }
-  
-    .btn {
-      display: none;
-    }
-  
-    .hide-show-speaker {
-      display: flex;
-    }
+  .keynote-instructors {
+    grid-template-columns: 1fr 1fr;
+    width: 80%;
+    margin: auto;
+  }
 
-    .logo-footer {
-      display: flex;
-      flex-direction: row;
-      gap: 5px;
-    }
+  .btn {
+    display: none;
+  }
 
-    .logo-footer h5 {
-      margin-top: 20px;
-      font-size: 14px;
-      font-family: 'COCOGOOSE', serif;
-    }
+  .hide-show-speaker {
+    display: flex;
+  }
+
+  .logo-footer {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+  }
+
+  .logo-footer h5 {
+    margin-top: 20px;
+    font-size: 14px;
+    font-family: 'COCOGOOSE', serif;
+  }
 }

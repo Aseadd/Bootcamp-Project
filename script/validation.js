@@ -8,15 +8,6 @@ function moreInstructors() {
   card4.classList.toggle('active');
   card5.classList.toggle('active');
   card6.classList.toggle('active');
-  document.getElementById('btn').innerHTML =
-    'LESS <span> <i class="fa fa-angle-down" aria-hidden="true"></i></span>';
+  document.getElementById('btn').innerHTML = 'LESS <span> <i class="fa fa-angle-down" aria-hidden="true"></i></span>';
 }
 more.addEventListener('click', moreInstructors);
-
-function lessInstructors() {
-  card3.classList.remove('active');
-  card4.classList.remove('active');
-  card5.classList.remove('active');
-  card6.classList.remove('active');
-  document.getElementById('btn').innerHTML = 'More';
-}

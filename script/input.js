@@ -57,7 +57,7 @@ document.querySelector('.keynote-instructors').innerHTML = instructors
 >
 </div>
 </div>
-`
+`,
   )
   .join('');
 
@@ -80,14 +80,12 @@ function toggle() {
     }
     const btn = document.querySelector('.btn');
     if (
-      btn.innerHTML ===
-      'MORE <span> <i class="fa fa-angle-down" aria-hidden="true"></i></span>'
+      btn.innerHTML
+      === 'MORE <span> <i class="fa fa-angle-down" aria-hidden="true"></i></span>'
     ) {
-      btn.innerHTML =
-        'LESS <span> <i class="fa fa-angle-up" aria-hidden="true"></i></span>';
+      btn.innerHTML = 'LESS <span> <i class="fa fa-angle-up" aria-hidden="true"></i></span>';
     } else {
-      btn.innerHTML =
-        'MORE <span> <i class="fa fa-angle-down" aria-hidden="true"></i></span>';
+      btn.innerHTML = 'MORE <span> <i class="fa fa-angle-down" aria-hidden="true"></i></span>';
     }
   });
 }

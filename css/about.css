@@ -129,6 +129,10 @@ p {
   height: 200px;
 }
 
+.foot-note img {
+  height: 60px;
+}
+
 .event img:hover {
   filter: opacity(70%);
 }
@@ -161,7 +165,7 @@ p {
   margin-left: 50px;
   justify-content: center;
   margin-top: 20px;
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .partner a {
@@ -228,10 +232,6 @@ p {
   display: flex;
   flex-direction: column;
   color: #fff;
-}
-
-.foot-note img {
-  height: 60px;
 }
 
 @media only screen and (min-width: 768px) {
