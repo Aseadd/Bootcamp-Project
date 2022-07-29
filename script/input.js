@@ -1,41 +1,41 @@
 const instructors = [
   {
-    image: '../images/milla.jpg',
+    image: './images/milla.jpg',
     name: 'Million Ayalew',
     job: 'Software Engineering graduate at ',
     profile:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Et veritatis harum nesciunt nihil quae sit aliquam ab doloribus? Eum, ipsam!',
   },
   {
-    image: '../images/Ag.jpg',
+    image: './images/Ag.jpg',
     name: 'Agmas Getnet',
     job: 'Software Engineer at Ministry of Innovation and TEchnology ',
     profile:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Et veritatis harum nesciunt nihil quae sit aliquam ab doloribus? Eum, ipsam!',
   },
   {
-    image: '../images/Ad.jpg',
+    image: './images/Ad.jpg',
     name: 'Addis Tsega',
     job: 'Graduate of Software Engineering @ AASTU',
     profile:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Et veritatis harum nesciunt nihil quae sit aliquam ab doloribus? Eum, ipsam!',
   },
   {
-    image: '../images/Addis.jpg',
+    image: './images/Addis.jpg',
     name: 'Bedada Bekele',
     job: 'Software Engineer @ EXC',
     profile:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Et veritatis harum nesciunt nihil quae sit aliquam ab doloribus? Eum, ipsam!',
   },
   {
-    image: '../images/eyob.jpg',
+    image: './images/eyob.jpg',
     name: 'Eyob Temesgen',
     job: 'Software Engineer @ PCEHR',
     profile:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Et veritatis harum nesciunt nihil quae sit aliquam ab doloribus? Eum, ipsam!',
   },
   {
-    image: '../images/Ag.jpg',
+    image: './images/Ag.jpg',
     name: 'Matias Belete',
     job: 'Data Engineer @ Self',
     profile:
@@ -57,7 +57,7 @@ document.querySelector('.keynote-instructors').innerHTML = instructors
 >
 </div>
 </div>
-`,
+`
   )
   .join('');
 
@@ -80,12 +80,14 @@ function toggle() {
     }
     const btn = document.querySelector('.btn');
     if (
-      btn.innerHTML
-      === 'MORE <span> <i class="fa fa-angle-down" aria-hidden="true"></i></span>'
+      btn.innerHTML ===
+      'MORE <span> <i class="fa fa-angle-down" aria-hidden="true"></i></span>'
     ) {
-      btn.innerHTML = 'LESS <span> <i class="fa fa-angle-up" aria-hidden="true"></i></span>';
+      btn.innerHTML =
+        'LESS <span> <i class="fa fa-angle-up" aria-hidden="true"></i></span>';
     } else {
-      btn.innerHTML = 'MORE <span> <i class="fa fa-angle-down" aria-hidden="true"></i></span>';
+      btn.innerHTML =
+        'MORE <span> <i class="fa fa-angle-down" aria-hidden="true"></i></span>';
     }
   });
 }
