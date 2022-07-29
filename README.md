@@ -2,24 +2,27 @@
 
 ## Description
 
-This website is my personal portoflio. I have developed number of websites and the projects and my achievents are available here
+This website is a web development bootcamp webpage. It's goal is to enable people around the world jion and learn web development online regardless of the location .
 
 ## Built With
 
 - HTML
+- CSS and
+- JavaScript
 
 ## Live Demo
 
-[Live Demo Link](https://aseadd.github.io)
-
-## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+[Live Demo Link](https://www.loom.com/share/a17237a32c3148a1a68ddf7b5e1a9970)
 
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
+
+- Have a good knowledge on how to parse UI designs
+- Have VSCode or other text editor installed. Link to download VSCode
+- Install node package. Link to download node
+- Have git installed.Link to download git
+- Create a github repository.
 
 ### Project Setup
 
@@ -31,25 +34,17 @@ Make sure NodeJs and NPM are installed
 ### Setup
 
 1.  Clone the repo into your local machine
-    `git clone https://github.com/Aseadd/Microverse-Project-1
+    `git clone https://github.com/Aseadd/Conference-Project
 2.  open terminal and cd in the project
     `cd Microverse-Project-1
 3.  Open the index html in your browser
     `open index.html
 
-## Authors
-
-👤 **Author1**
+## Author
 
 - GitHub: [@githubhandle](https://github.com/Aseadd)
 - Twitter: [@twitterhandle](https://twitter.com/adaTsega)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/addistsega)
-
-## 🤝 Contributing
-
-Contributions, issues, and feature requests are welcome!
-
-Feel free to check the [issues page](../../issues/).
 
 ## Show your support
 
@@ -57,10 +52,8 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- A special thanks goes to [Cindy Shin](https://www.behance.net/adagio07)
 
 ## 📝 License
 
-This project is [MIT] (/MIT.md) licensed.
+This project is [MIT] (/LICENSE.md) licensed.

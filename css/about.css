@@ -120,16 +120,17 @@ p {
   background: none;
   font-family: 'COCOGOOSE', sans-serif;
   color: var(--white);
+  font-weight: bold;
 }
 
 .event img {
-  filter: hue-rotate(50deg);
+  filter: opacity(0.7);
   width: 375px;
   height: 200px;
 }
 
 .event img:hover {
-  filter: opacity(50%);
+  filter: opacity(70%);
 }
 
 .footer-section {
@@ -159,6 +160,8 @@ p {
   transition: 0.3s;
   margin-left: 50px;
   justify-content: center;
+  margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .partner a {
@@ -182,6 +185,7 @@ p {
   height: 4px;
   background: #ec5242;
   border-radius: 24px;
+  margin-left: 215px;
 }
 
 .mozila {
@@ -210,6 +214,26 @@ p {
   height: 30px;
 }
 
+.foot-note {
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+  height: 90px;
+  gap: 80px;
+  justify-content: center;
+  margin: 30px 0 0 350px;
+}
+
+.address {
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+}
+
+.foot-note img {
+  height: 60px;
+}
+
 @media only screen and (min-width: 768px) {
   .about-headline {
     width: 60%;
@@ -223,5 +247,9 @@ p {
 
   .partners-list {
     width: 1200px;
+  }
+
+  .indicator-footer {
+    margin-left: 650px;
   }
 }
