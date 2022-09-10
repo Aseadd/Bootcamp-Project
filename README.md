@@ -1,10 +1,10 @@
-# Microverse Capstone Conference Project
+# Microverse Capstone Bootcamp Project
 
 ![Microverse](https://img.shields.io/badge/Microverse-blueviolet) ![HTML](https://img.shields.io/badge/-HTML-orange) ![CSS](https://img.shields.io/badge/-CSS-blue) ![JavaScript](https://img.shields.io/badge/-JavaScript-yellow) 
 
 ## Description
 
-This website is a web development bootcamp webpage. It's goal is to enable people around the world jion and learn web development online regardless of the location .
+This website is a web development bootcamp webpage. It's goal is to enable people around the world to have access to aspire remote jobs and to make them learn web development online regardless of the location .
 
 ## Built With
 
