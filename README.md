@@ -40,14 +40,14 @@ Make sure NodeJs and NPM are installed
 - Type the following command then press ENTER:
 
 ```sh
-  git clone https://github.com/Aseadd_/Conference-Project.git
+  git clone https://github.com/Aseadd_/Bootcamp-Project.git
 ```
 
 - The terminal will send to you information about your download.
 - Type the following command then press ENTER:
 
 ```sh
-  cd Conference-Project
+  cd Bootcamp-Project
 ```
 
 - **Open folder in VSC**
